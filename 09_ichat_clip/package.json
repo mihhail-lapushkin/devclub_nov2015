@@ -1,0 +1,19 @@
+{
+  "private": true,
+
+  "scripts": {
+    "start": "node server/start",
+    "buildClient": "browserify -d client/index.js -t es6ify -o public/index.js && browserify -d client/record.js -t es6ify -o public/record.js"
+  },
+
+  "dependencies": {
+    "express": "4.13.3",
+    "body-parser": "1.14.1",
+    "whammy": "0.0.1"
+  },
+
+  "devDependencies": {
+    "browserify": "12.0.1",
+    "es6ify": "1.5.1"
+  }
+}

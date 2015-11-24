@@ -1,0 +1,12 @@
+var localModule1 = require('./localModule1')
+var localModule2 = require('./localModule2')
+//var externalModule = require('externalModule')
+//var externalModuleOtherFile = require('externalModule/otherFile')
+//var externalModuleAtRoot = require('externalModuleAtRoot')
+//require('.')
+
+console.log(localModule1('Hello world!'))
+console.log(localModule2)
+//console.log(externalModule)
+//console.log(externalModuleOtherFile)
+//console.log(require('./localModule1') === require('./localModule1'))
