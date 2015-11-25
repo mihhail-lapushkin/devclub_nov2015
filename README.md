@@ -8,5 +8,5 @@ TypeScript stuff should work in WebStorm out of the box.
 Go to localhost:8888/record.html to record a clip.
 Go to localhost:8888 to view it.
 
-## 10_ichat_clip
+## 10_cluster
 Favicon request hangs a core. Next favicon request hangs another core etc.
